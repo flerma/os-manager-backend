@@ -62,16 +62,16 @@ CREATE TABLE cliente (
     usuario_alteracao INT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('João Silva', 'Rua do Abacaxi', '10', null, 'Brasil', '38.400-12', 'Uberlândia', 'MG', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Maria Rita', 'Rua do Sabiá', '110', 'Apto 101', 'Colina', '11.400-12', 'Ribeirão Preto', 'SP', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Pedro Santos', 'Rua da Bateria', '23', null, 'Morumbi', '54.212-12', 'Goiânia', 'GO', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Ricardo Pereira', 'Rua do Motorista', '123', 'Apto 302', 'Aparecida', '38.400-12', 'Salvador', 'BA', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Josué Mariano', 'Av Rio Branco', '321', null, 'Jardins', '56.400-12', 'Natal', 'RN', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Pedro Barbosa', 'Av Brasil', '100', null, 'Tubalina', '77.400-12', 'Porto Alegre', 'RS', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Henrique Medeiros', 'Rua do Sapo', '1120', 'Apto 201', 'Centro', '12.400-12', 'Rio de Janeiro', 'RJ', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Carlos Santana', 'Rua da Manga', '433', null, 'Centro', '31.400-12', 'Belo Horizonte', 'MG', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Leonardo Oliveira', 'Rua do Músico', '566', null, 'Segismundo Pereira', '38.400-00', 'Uberlândia', 'MG', true, now(), 1, null, null);
-INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Isabela Martins', 'Rua da Terra', '1233', 'Apto 10', 'Vigilato', '99.400-12', 'Manaus', 'AM', true, now(), 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('João Silva', 'Rua do Abacaxi', '10', null, 'Brasil', '38.400-12', 'Uberlândia', 'MG', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Maria Rita', 'Rua do Sabiá', '110', 'Apto 101', 'Colina', '11.400-12', 'Ribeirão Preto', 'SP', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Pedro Santos', 'Rua da Bateria', '23', null, 'Morumbi', '54.212-12', 'Goiânia', 'GO', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Ricardo Pereira', 'Rua do Motorista', '123', 'Apto 302', 'Aparecida', '38.400-12', 'Salvador', 'BA', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Josué Mariano', 'Av Rio Branco', '321', null, 'Jardins', '56.400-12', 'Natal', 'RN', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Pedro Barbosa', 'Av Brasil', '100', null, 'Tubalina', '77.400-12', 'Porto Alegre', 'RS', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Henrique Medeiros', 'Rua do Sapo', '1120', 'Apto 201', 'Centro', '12.400-12', 'Rio de Janeiro', 'RJ', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Carlos Santana', 'Rua da Manga', '433', null, 'Centro', '31.400-12', 'Belo Horizonte', 'MG', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Leonardo Oliveira', 'Rua do Músico', '566', null, 'Segismundo Pereira', '38.400-00', 'Uberlândia', 'MG', true, '2020-04-12', 1, null, null);
+INSERT INTO cliente (nome, logradouro, numero, complemento, bairro, cep, cidade, estado, ativo, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) values ('Isabela Martins', 'Rua da Terra', '1233', 'Apto 10', 'Vigilato', '99.400-12', 'Manaus', 'AM', true, '2020-04-12', 1, null, null);
 
 CREATE TABLE status_orcamento (
 	codigo INT PRIMARY KEY AUTO_INCREMENT,
@@ -115,12 +115,12 @@ CREATE TABLE orcamento (
     usuario_inclusao INT NOT NULL,
     data_alteracao DATE NULL,
     usuario_alteracao INT NULL,
-    FOREIGN KEY (codigo_cliente) REFERENCES CLIENTE(codigo),
+    FOREIGN KEY (codigo_cliente) REFERENCES cliente(codigo),
 	FOREIGN KEY (codigo_tipo_servico) REFERENCES tipo_servico(codigo),
     FOREIGN KEY (codigo_status_orcamento) REFERENCES status_orcamento(codigo)    
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO orcamento (codigo_cliente, codigo_tipo_servico, codigo_status_orcamento, data_agendamento, data_execucao, descricao, valor, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) VALUE (1, 1, 1, now(), now(), 'Troca de 3 estacionamento', 1080.00, now(), 1, null, null);
+INSERT INTO orcamento (codigo_cliente, codigo_tipo_servico, codigo_status_orcamento, data_agendamento, data_execucao, descricao, valor, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) VALUE (1, 1, 1, '2020-04-12', '2020-04-12', 'Troca de 3 estacionamento', 1080.00, '2020-04-12', 1, null, null);
 
 
 
@@ -139,4 +139,4 @@ CREATE TABLE ordem_servico (
 	FOREIGN KEY (codigo_status_ordem_servico) REFERENCES status_ordem_servico(codigo)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO ordem_servico (codigo_orcamento, codigo_status_ordem_servico, data_agendamento, data_execucao, descricao, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) VALUE (1, 1, now(), now(), 'Troca de 3 estacionamento', now(), 1, null, null);
+INSERT INTO ordem_servico (codigo_orcamento, codigo_status_ordem_servico, data_agendamento, data_execucao, descricao, data_inclusao, usuario_inclusao, data_alteracao, usuario_alteracao) VALUE (1, 1, '2020-04-12', '2020-04-12', 'Troca de 3 estacionamento', '2020-04-12', 1, null, null);
