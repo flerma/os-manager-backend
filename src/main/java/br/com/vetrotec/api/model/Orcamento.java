@@ -33,7 +33,7 @@ public class Orcamento {
 	private Cliente cliente;
 	
 	@NotNull
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "codigo_tipo_servico", insertable=false, updatable=false, referencedColumnName="codigo")
 	private TipoServico tipoServico;
 	

@@ -1,12 +1,13 @@
 package br.com.vetrotec.api.resource;
 
 import java.net.URI;
-import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -22,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import br.com.vetrotec.api.model.Orcamento;
+import br.com.vetrotec.api.repository.filter.OrcamentoFilter;
+import br.com.vetrotec.api.repository.projection.ResumoOrcamento;
 import br.com.vetrotec.api.service.OrcamentoService;
 
 @RestController
@@ -34,8 +37,14 @@ public class OrcamentoResource {
 	
 	@GetMapping
 	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_ORCAMENTO') and #oauth2.hasScope('read')")
-	public ResponseEntity<List<Orcamento>> pesquisar() {
-		return ResponseEntity.ok().body(orcamentoService.pesquisar());
+	public Page<Orcamento> pesquisar(OrcamentoFilter orcamentoFilter, Pageable pageable) {
+		return orcamentoService.pesquisar(orcamentoFilter, pageable);
+	}
+	
+	@GetMapping(params = "resumo")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_ORCAMENTO') and #oauth2.hasScope('read')")
+	public Page<ResumoOrcamento> resumir(OrcamentoFilter orcamentoFilter, Pageable pageable) {
+		return orcamentoService.resumir(orcamentoFilter, pageable);
 	}
 	
 	@GetMapping("/{codigo}")
