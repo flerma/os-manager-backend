@@ -1,4 +1,4 @@
-package br.com.vetrotec.api;
+package br.com.vetrotec.api.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

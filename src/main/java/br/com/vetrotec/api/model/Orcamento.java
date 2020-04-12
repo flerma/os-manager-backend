@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -32,7 +33,7 @@ public class Orcamento {
 	private Cliente cliente;
 	
 	@NotNull
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "codigo_tipo_servico", insertable=false, updatable=false, referencedColumnName="codigo")
 	private TipoServico tipoServico;
 	
@@ -49,7 +50,7 @@ public class Orcamento {
 	private BigDecimal valor;
 	
 	@NotNull
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "codigo_status_orcamento", insertable=false, updatable=false, referencedColumnName="codigo")
 	private StatusOrcamento status;
 	
