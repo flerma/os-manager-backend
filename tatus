@@ -1,0 +1,62 @@
+[33mcommit 884771628a6944f85cd4cba1776225b3637318c9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31mheroku/master[m[33m)[m
+Merge: c6ad6c6 ce4557d
+Author: flerma <fernando.lerma@gmail.com>
+Date:   Sun Apr 12 16:24:35 2020 -0300
+
+    Merge pull request #3 from flerma/develop
+    
+    Alterações no script de inicialização da base de dados
+
+[33mcommit ce4557d6d508b8820a339d8adff750a248517d82[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: ferna <ferna@DESKTOP-D5NP70L>
+Date:   Sun Apr 12 16:23:23 2020 -0300
+
+    Alterações no script de inicialização da base de dados
+
+[33mcommit c6ad6c689e53378df38ddbd299173acb6459d3e1[m
+Merge: 078e2ae 4109cd8
+Author: flerma <fernando.lerma@gmail.com>
+Date:   Sun Apr 12 15:27:45 2020 -0300
+
+    Merge pull request #2 from flerma/develop
+    
+    Configurações de variáveis de ambiente de produção
+
+[33mcommit 4109cd8a261b7b210d74740bed82e2d39b58c305[m
+Author: ferna <ferna@DESKTOP-D5NP70L>
+Date:   Sun Apr 12 15:26:42 2020 -0300
+
+    Configurações de variáveis de ambiente de produção
+
+[33mcommit 078e2aeb73d422345c63a7962a8e78564fd5f87c[m
+Merge: ed8194d 3711ca6
+Author: flerma <fernando.lerma@gmail.com>
+Date:   Sun Apr 12 14:51:40 2020 -0300
+
+    Merge pull request #1 from flerma/develop
+    
+    Alterações de acesso , configurações externas em properties e consultas e filtros no orçamento
+
+[33mcommit 3711ca650a5f90f02d6fc98ec2eeec7d3a2a9662[m
+Author: ferna <ferna@DESKTOP-D5NP70L>
+Date:   Sun Apr 12 14:36:39 2020 -0300
+
+    Pesquisa de orçamento
+    Resumo de orçamento
+    Configuração externa de https e cors url origin
+    Inclusão do timezone UTC no application java
+
+[33mcommit 070a73f40ff20be830b38b95714325c8a4d24d9f[m
+Author: ferna <ferna@DESKTOP-D5NP70L>
+Date:   Sat Apr 11 13:56:57 2020 -0300
+
+    Inclusões:
+    Controle de acesso, permissão de usuarios e escopo de acesso
+    Resources, services e repositories de Orçamento e Ordem de Serviço
+    Adição do cors para acesso de outra url de origem diferente da aplicação
+
+[33mcommit ed8194db256fbcc90b6b2249003b9bc7c92c5a9d[m
+Author: Fernando Marchesano Lerma <k2.fernando.lerma@segurossura.com.br>
+Date:   Fri Mar 27 14:55:25 2020 -0300
+
+    Primeiro commit no github do os-manager
